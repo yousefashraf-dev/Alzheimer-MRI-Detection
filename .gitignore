@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+*.egg-info/
+
+# Environments
+.env
+.venv/
+venv/
+env/
+
+# IDE / OS
+.vscode/
+.idea/
+.vs/
+.DS_Store
+Thumbs.db
+
+# PHP / web runtime
+web/pathiont/upload/*
+!web/pathiont/upload/.gitkeep
+
+# Large / archived files
+*.zip
+*.rar
+*.7z
+*.pptx
+*.pdf

@@ -17,7 +17,7 @@ def get_classifier():
     return SiameseClassifier()
 
 
-st.set_page_config(page_title="Alzheimer MRI Detection", page_icon=":brain:")
+st.set_page_config(page_title="Alzheimer MRI Detection")
 st.title("Alzheimer's Disease Detection")
 st.caption("Siamese Network (one-shot learning) on brain MRI scans")
 
